@@ -31,8 +31,10 @@ Descargar node.js desde la página de [node](http://nodejs.org/). Este paso es i
    en el caso de que no lo tengas instalado. Si se produce un error durante la instalación actualiza el "homebrew":
 
    * brew update 
- * * *
-Información:
+ 
+<br>* * *
+
+<br>Información:
 ============
 * Víctor Hernández Pérez
 * Grado en Ingeniería Informática
