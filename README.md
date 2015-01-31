@@ -44,6 +44,6 @@ Información:
  
 ***Observaciones:***
 <br>Destacar que para la elaboración de este tutorial se ha hecho 
-uso de otros existentes, la razón es porque uso cloud9 como entorno 
+usando otros existentes, la razón es porque uso cloud9 como entorno 
 de desarrollo y ésta herramienta trae nodeJS instalado por defecto.
 
