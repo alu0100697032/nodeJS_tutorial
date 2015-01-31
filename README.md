@@ -1,10 +1,10 @@
 # Node.js Tutorial
-* * * 
 
 ![](http://calebmadrigal.com/images/nodejs-logo.png)
 
 Introducción
-* * * 
+===========
+
 Esta práctica trata de cómo instalar node.js en nuestra máquina. Destacar que dependiendo del sistema operativo el proceso de instalación es ligeramente distinto. 
 
 * ## Proceso de instalación
@@ -31,7 +31,7 @@ Descargar node.js desde la página de [node](http://nodejs.org/). Este paso es i
 
    * brew update 
  
-<br>Información:
+Información:
 ============
 * Víctor Hernández Pérez
 * Grado en Ingeniería Informática
