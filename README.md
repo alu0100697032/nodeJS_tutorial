@@ -18,18 +18,16 @@ Descargar node.js desde la página de [node](http://nodejs.org/). Este paso es i
  *  ***Instalación en Linux:***
  <br><br>Puedes intalarlo de varias maneras: 
    * Desde el centro de software de Ubuntu (si esta es la distribución disponible en tu máquina)
- 
-   * Y la manera más interesante es bajarlo desde los repositorios de tu distribución linux para que se actualize automáticamente cuando estén disponibles nuevas versiones. 
+    * Y la manera más interesante es bajarlo desde los repositorios de tu distribución linux para que se actualize automáticamente cuando estén disponibles nuevas versiones. 
    
   * ***Instalación en Mac***
   <br><br>Si se dispone del gestor de paquetes "homebrew" es tan fácil como lanzar el comando:
 
     * brew install nodejs
 
-   <br>Durante la instalación de te pedirá incluir en tu sistema un paquete de utilidades por línea de comandos de xcode, 
-   en el caso de que no lo tengas instalado. Si se produce un error durante la instalación actualiza el "homebrew":
-
-   * brew update 
+    <br>Durante la instalación de te pedirá incluir en tu sistema un paquete de utilidades por línea de comandos de xcode, en el caso de que no lo tengas instalado. Si se produce un error durante la instalación actualiza el "homebrew":
+    
+    * brew update 
  
 Información:
 ============
