@@ -1,60 +1,117 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>NodeJS Tutorial</title>
-</head>
-<body>
-    <h1>Node.js Tutorial</h1> 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-<IMG src="http://calebmadrigal.com/images/nodejs-logo.png">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-<h2>Introducción</h2>
+    <title>Nodejs tutorial by alu0100697032</title>
+  </head>
 
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Nodejs tutorial</h1>
+        <h2></h2>
+        <a href="https://github.com/alu0100697032/nodeJS_tutorial" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
 
-Esta práctica trata de cómo instalar node.js en nuestra máquina. Destacar que dependiendo del sistema operativo el proceso de instalación es ligeramente distinto. 
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="nodejs-tutorial" class="anchor" href="#nodejs-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>Node.js Tutorial</h1>
+
+<p><img src="http://calebmadrigal.com/images/nodejs-logo.png" alt=""></p>
+
+<h1>
+<a id="introducción" class="anchor" href="#introducci%C3%B3n" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introducción</h1>
+
+<p>Esta práctica trata de cómo instalar node.js en nuestra máquina. Destacar que dependiendo del sistema operativo el proceso de instalación es ligeramente distinto. </p>
 
 <ul>
-    <li><h3>Proceso de instalación</h3></li> 
-    Descargar node.js desde la página de <a href="http://nodejs.org/">node</a>.
-    Este paso es independiente del sitema operativo en el que trabajemos.
-    <ul>
-        <br><li><b><i>Instalación en Windows</i></b></li>
-            <br>Si estás en Windows, al pulsar sobre Install te descargará el instalador para este sistema, un archivo con extensión "msi" que como ya sabes, te mostrará el típico asistente de instalación de software.
-            <br><br>Una vez descargado, ejecutas el instalador y ¡ya lo tienes!
-            <br><br>A partir de ahora, para ejecutar "Node" tienes que irte a la línea de comandos de Windows e introducir el comando "node". 
-        <br><li><b><i>Instalación en Linux</i></b></li>
-            <br>Puedes intalarlo de varias maneras:
-            <ul>
-                <br><li>Desde el centro de software de Ubuntu (si esta es la distribución disponible en tu máquina)</li>
-                <br><li>O la manera más interesante es bajarlo desde los repositorios de tu distribución linux para que se actualize automáticamente cuando estén disponibles nuevas versiones. </li>
-            </ul>
-        <br><li><b><i>Instalación en Mac</i></b></li>
-        <br>Si se dispone del gestor de paquetes "homebrew" es tan fácil como lanzar el comando:
-        <ul>
-            <br><li>brew install nodejs</li>
-        </ul>
-        <br>Durante la instalación de te pedirá incluir en tu sistema un paquete de utilidades por línea de comandos de xcode, en el caso de que no lo tengas instalado. Si se produce un error durante la instalación actualiza el "homebrew":
-        <ul>
-            <br><li>brew update </li>
-        </ul>
-    </ul>
-</ul>
+<li>
+<h2>
+<a id="proceso-de-instalación" class="anchor" href="#proceso-de-instalaci%C3%B3n" aria-hidden="true"><span class="octicon octicon-link"></span></a>Proceso de instalación</h2>
 
-<h2>Información:</h2>
+<p>Descargar node.js desde la página de <a href="http://nodejs.org/">node</a>. Este paso es independiente del sitema operativo en el que trabajemos.</p>
+
 <ul>
-    <li>Víctor Hernández Pérez</li>
-    <li>Grado en Ingeniería Informática</li>
-    <li>Tercer cuatrimestre </li>
-    <li>Itinerario: Computación</li>
-    <li>Procesadores de lenguajes</li>
-    <li>alu0100697032@ull.edu.es</li>
+<li><p><strong><em>Instalación en Windows:</em></strong>
+<br><br>Si estás en Windows, al pulsar sobre Install te descargará el instalador para este sistema, un archivo con extensión "msi" que como ya sabes, te mostrará el típico asistente de instalación de software.
+<br><br>Una vez descargado, ejecutas el instalador y ¡ya lo tienes!
+<br><br>A partir de ahora, para ejecutar "Node" tienes que irte a la línea de comandos de Windows e introducir el comando "node". </p></li>
+<li>
+<p><strong><em>Instalación en Linux:</em></strong>
+<br><br>Puedes intalarlo de varias maneras: </p>
+
+<ul>
+<li>Desde el centro de software de Ubuntu (si esta es la distribución disponible en tu máquina)</li>
+<li>Y la manera más interesante es bajarlo desde los repositorios de tu distribución linux para que se actualize automáticamente cuando estén disponibles nuevas versiones. </li>
+</ul>
+</li>
+<li>
+<p><strong><em>Instalación en Mac</em></strong>
+<br><br>Si se dispone del gestor de paquetes "homebrew" es tan fácil como lanzar el comando:</p>
+
+<ul>
+<li>brew install nodejs</li>
 </ul>
 
-  
-<br><b><i>Observaciones:</i></b>
+<p><br>Durante la instalación de te pedirá incluir en tu sistema un paquete de utilidades por línea de comandos de xcode, en el caso de que no lo tengas instalado. Si se produce un error durante la instalación actualiza el "homebrew":</p>
+
+<ul>
+<li>brew update </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<h1>
+<a id="información" class="anchor" href="#informaci%C3%B3n" aria-hidden="true"><span class="octicon octicon-link"></span></a>Información:</h1>
+
+<ul>
+<li>Víctor Hernández Pérez</li>
+<li>Grado en Ingeniería Informática</li>
+<li>Tercer cuatrimestre </li>
+<li>Itinerario: Computación</li>
+<li>Procesadores de lenguajes</li>
+<li><a href="mailto:alu0100697032@ull.edu.es">alu0100697032@ull.edu.es</a></li>
+</ul>
+
+<p><strong><em>Observaciones:</em></strong>
 <br>Destacar que para la elaboración de este tutorial se ha hecho 
 usando otros existentes, la razón es porque uso cloud9 como entorno 
-de desarrollo y ésta herramienta trae nodeJS instalado por defecto.
-</body>
+de desarrollo y ésta herramienta trae nodeJS instalado por defecto.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/alu0100697032/nodeJS_tutorial/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/alu0100697032/nodeJS_tutorial/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/alu0100697032/nodeJS_tutorial"></a> is maintained by <a href="https://github.com/alu0100697032">alu0100697032</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
 </html>
